@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+ height: 100%;
+ width: 100%;
+ background-position:  fixed;
+ background-size: fixed;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin: 40px 60px 30px 60px ;
+    justify-content: space-between;
+}
+header nav {
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+
+}
+.logo{
+    height: 40px;
+}
+/* target list */
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin-left: 10%;
+}
+.list-items{
+   list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
+.btn{
+    background-color: #5955b3;
+    border: none;
+    color: #ffffff;
+    padding:10px 16px;
+    border-radius: 8px;
+}
+/* hero-section */
+.hero-section{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 20px 60px;
+}
+.left-hero-section{
+   width: 40%;
+   /* margin-right: 5%; */
+}
+.left-hero-section h1{
+    color: #3D2F61;
+    font-size:50px;
+    font-style: normal;
+line-height: 60px;
+margin-bottom: 25px;
+
+}
+.left-hero-section h1 span{
+    color: #5955B3;
+}
+.left-hero-section p{
+    color: #878787;
+    margin-bottom: 50px;
+font-size: 15px;
+}
+/* right hero section */
+.right-hero-section{
+    width: 60%;
+    margin-right: 60px;
+}
+.right-hero-section img{
+    height: 600px;
+    width: 850px;
+}
